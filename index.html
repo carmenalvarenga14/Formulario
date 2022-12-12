@@ -3,17 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/estilo.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/estilo.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+    </style>
+    <title>Formulario de Safeme</title>
   </head>
+
   <body>
-    <h1>INSCRIBETE</h1>
-    <form id="form">
-      <div class="form-group">
-    <label for="name">Nombre</label>
-    <imput type="text" class="form"
-    placeholder ="Nombre">
-    
+    <header>
+      <form class="form" id="forma">
+        <h1 class="form__title">INSCRÍBETE</h1>
+
+        <div class="form_title_cont">
+          <div class="form_titlecont_cont2">
+            <input
+              type="text"
+              id="name"
+              placeholder=" "
+              class="form_titlecontcont2_in"
+            />
+            <label for="name" class="form_titlecontcont2in_la">Nombre</label>
+          </div>
+
+          <div class="form_titlecont_cont2">
+            <input
+              type="text"
+              id="correo"
+              placeholder=" "
+              class="form_titlecontcont2_in"
+            />
+            <label for="name" class="form_titlecontcont2in_la">correo</label>
+          </div>
+
+          <div class="form_titlecont_cont2">
+            <input
+              type="text"
+              id="trabajo"
+              placeholder=" "
+              class="form_titlecontcont2_in"
+            />
+            <label for="name" class="form_titlecontcont2in_la">Trabajo</label>
+          </div>
+          <div class="form_titlecont_cont2">
+            <input
+              type="text"
+              id="phone"
+              placeholder=" "
+              class="form_titlecontcont2_in"
+            />
+            <label for="number" class="form_titlecontcont2in_la"
+              >Telefono</label
+            >
+          </div>
+
+          <div class="form_titlecont_cont2" id="completo">
+            <input
+              type="text"
+              id="info"
+              placeholder=" "
+              class="form_titlecontcont2_in"
+            />
+            <label for="name" class="form_titlecontcont2in_la">Sobre ti</label>
+          </div>
+        </div>
+        <div class="boton">
+          <input
+            type="submit"
+            class="boton__submit"
+            id="submit"
+            value="Enviar"
+          />
+        </div>
+      </form>
+    </header>
+
+    <div id="contenedor"></div>
+
+    <script src="./index.js"></script>
   </body>
 </html>

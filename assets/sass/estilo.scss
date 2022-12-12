@@ -1,0 +1,25 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  font-family: 'Righteous', cursive;
+  width: 80%;
+  height: 40rem;
+  text-align: center;
+  background: rgb(228,142,160);
+  background: radial-gradient(circle, rgba(228,142,160,1) 6%, rgba(240,168,61,1) 18%, rgba(148,182,220,1) 32%, rgba(138,149,232,1) 52%,);
+}
+
+.forma{
+  margin-left: 25%;
+  width: 30rem;
+  background-color: antiquewhite;
+    &__fila{
+      display: flex;
+      margin: 25px;
+      &__grupo{
+         
+      }
+    }
+}
