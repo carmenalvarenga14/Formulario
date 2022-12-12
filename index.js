@@ -59,7 +59,7 @@ function crearCuadroDeforma( Name, email, Work, telefono, info) {
     <section class="foot">
 
     <div class="foot__cont3">
-    <img src="./assets/img/" class="foot_cont3_image" alt="image">
+    <img src="./assets/img/mariposa.webp" class="foot_cont3_image" alt="image">
     <h4 class="foot_cont3image_name">${Name}</h4>
     <p class="foot_cont3image_name">${email}</h4>
     <p class="foot_cont3image_name">${Work}</h4>

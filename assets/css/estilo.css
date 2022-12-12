@@ -9,7 +9,8 @@ body {
   height: 40rem;
   text-align: center;
   background: rgb(228, 142, 160);
-  background: radial-gradient(circle, rgb(228, 142, 160) 6%, rgb(240, 168, 61) 18%, rgb(148, 182, 220) 32%, rgb(138, 149, 232) 52%);
+background-repeat: no-repeat;
+background-size: 100%;
 }
 
 .forma {
